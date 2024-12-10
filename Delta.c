@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 int delta(int a, int b, int c) {
-    int deltaN;
-    deltaN = (b*b) - 4 * (a * c);
-    return deltaN;
+    return (b*b) - 4 * (a * c);
 }
 
 int main(){
