@@ -1,5 +1,7 @@
+#include <stdio.h>
+
 int sumBigSmall(int a, int b, int c) {
-    int arr = {a, b, c};
+    int arr[3] = {a, b, c};
     int maior = arr[0];
     int menor;
     for(int i = 0; i < 3; i ++){
@@ -16,7 +18,6 @@ int sumBigSmall(int a, int b, int c) {
 int main() {
     int a, b, c;
     scanf("%d %d %d", &a, &b, &c);
-    printf(%d, sumBigSmall);
+    printf("%d", sumBigSmall(a, b, c));
     return 0;
-
 }
